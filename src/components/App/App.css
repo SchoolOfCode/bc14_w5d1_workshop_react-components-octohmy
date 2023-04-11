@@ -1,0 +1,44 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  list-style: none;
+  text-decoration: none;
+  color: aliceblue;
+}
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0b0b0b;
+}
+
+.card {
+  width: 250px;
+  height: 350px;
+  background-color: grey;
+  margin: 10px;
+  border: inset thick white;
+}
+/* There are two card class incase somone decides to use a capital letter for .Card */
+.Card {
+  width: 250px;
+  height: 350px;
+  margin: 10px;
+  background-color: grey;
+  border: inset thick white;
+
+
+}
+button{
+  width: 40%;
+  height: 40px;
+  margin: 0px 5px;
+  color: green;
+  font-weight: 600;
+}
+
+img{
+  width: 80%;
+}
