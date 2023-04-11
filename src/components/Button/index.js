@@ -2,7 +2,7 @@ import "./Button.css"
 
 function Button (props) {
     return (
-        <button className="button">See More (props.text)</button>
+        <button className="button">{props.someText}</button>
     )
 };
 
